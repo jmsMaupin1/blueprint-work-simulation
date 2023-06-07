@@ -93,8 +93,8 @@ function ScreenerPage() {
 
     if (!screener || !currentSection || isLoading) {
         return (
-            <div className='bg-blue-500 h-screen flex flex-col'>
-                <div className='w-full bg-purple-500 flex flex-1 justify-center items-center'>
+            <div className='h-screen flex flex-col'>
+                <div className='w-full flex flex-1 justify-center items-center'>
                     <LoadingSpinner />
                 </div>
             </div>
